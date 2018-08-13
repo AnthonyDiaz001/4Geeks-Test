@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    background-image: url("../imagenes/flor.jpg");
+}
+
+h1, h2, p {
+    text-align: center;
+    color:black;
+    background-color: tomato;
+}
+
+h1 {
+    background-color: green;
+}
+
+div {
+    background-color: blue;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+p {
+    background-color: yellow;
+    margin: 100px 100px 150px 80px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
